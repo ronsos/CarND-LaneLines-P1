@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 
 **Reflection**
 
-1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+**1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 The first step in the pipeline was to define all of the input variables needed for the various functions called during the process. By putting them in a single clearly commented block, it was easy to iterate on quick changes to the functionality of the algorithm.
 
@@ -41,7 +41,7 @@ Below are sample images showing the lanes being displayed successfully:
 ![alt text][image5]
 ![alt text][image6]
 
-2. Identify potential shortcomings with your current pipeline
+**2. Identify potential shortcomings with your current pipeline
 
 **Mask**
 
@@ -52,7 +52,7 @@ The pipeline works well as long as the lanes are within a particular location in
 Also, if the edge detection finds similarly sloped lines within the region of the mask that are not part of the lane, due to the averaging the lane is drawn in a very poor location. The challenge case causes this problem. 
 
 
-3. Suggest possible improvements to your pipeline
+**3. Suggest possible improvements to your pipeline
 
 **Mask**
 
