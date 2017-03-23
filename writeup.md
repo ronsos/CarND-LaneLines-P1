@@ -62,5 +62,5 @@ It may be possible to scale or adjust the location of the mask based on features
 
 The problem with the averaging is that any mistakes must be weeded out. It would be possible to weight the positions of each of the lines based on how close they are to the final average, with a higher weighting for being closer to average. This might help reduce the effect of outliers and increase the accuracy of the averaged lane. 
 
-Another possibility would be to filter out those outliers so that they are not included in the average. Since they are already being filtered by slope, this would be to be done by position. It is possible that additional slope tuning may improve performance as well. 
+Another possibility would be to filter out those outliers so that they are not included in the average. Since they are already being filtered by slope, this would have to be done by position. It is possible that additional slope tuning may improve performance as well. 
 
